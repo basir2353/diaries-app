@@ -1,0 +1,76 @@
+/* DiaryForm.css */
+.diary-form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .create-new-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add styles for diary entries */
+  .diary-entries-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .diary-entry {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: navy;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+  }
+  /* DiaryForm.css */
+/* ... (existing styles) ... */
+
+.diary-entry button {
+    margin-top: 8px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-right: 8px;
+  }
+  
+  .diary-entry button:hover {
+    background-color: #0d8cf0;
+  }
+  
+  /* ... (existing styles) ... */
+  
